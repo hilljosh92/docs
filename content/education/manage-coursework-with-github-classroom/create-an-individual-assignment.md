@@ -1,5 +1,5 @@
----
-title: Create an individual assignment
+
+      Create an individual assignment
 intro: You can create an assignment for students in your course to complete individually.
 versions:
   free-pro-team: '*'
