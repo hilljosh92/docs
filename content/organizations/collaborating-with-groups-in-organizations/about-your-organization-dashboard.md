@@ -1,6 +1,30 @@
+              Hill's Investments
+
+       
+
+        About your organization dashboard
+       'As an organization member, you can visit your organization''s dashboard throughout the day to stay updated on recent activity and keep track of issues and pull requests you''re working on or following in the organization.'
+
+
+redirect_from:
+  - /articles/about-your-organization-dashboard
+  - /github/setting-up-and-managing-organizations-and-teams/about-your-organization-dashboard
+versions:
+  free-pro-team: '*'
+  enterprise-server: '*'
+  github-ae: '*'
+topics:
+  
+
+
+
+- Organizations
+  - Teams
 ---
-title: About your organization dashboard
-intro: 'As an organization member, you can visit your organization''s dashboard throughout the day to stay updated on recent activity and keep track of issues and pull requests you''re working on or following in the organization.'
+
+
+        About your organization dashboard
+       'As an organization member, you can visit your organization''s dashboard throughout the day to stay updated on recent activity and keep track of issues and pull requests you''re working on or following in the organization.'
 redirect_from:
   - /articles/about-your-organization-dashboard
   - /github/setting-up-and-managing-organizations-and-teams/about-your-organization-dashboard
