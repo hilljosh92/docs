@@ -1,6 +1,6 @@
----
-title: Licensing a repository
-intro: 'Public repositories on GitHub are often used to share open source software. For your repository to truly be open source, you''ll need to license it so that others are free to use, change, and distribute the software.'
+
+       ✨ Licensing a repository
+       'Public repositories on GitHub are often used to share open source software. For your repository to truly be open source, you''ll need to license it so that others are free to use, change, and distribute the software.'
 redirect_from:
   - /articles/open-source-licensing/
   - /articles/licensing-a-repository
@@ -9,9 +9,8 @@ versions:
   enterprise-server: '*'
 topics:
   - Repositories
----
 
-### Choosing the right license
+   ✨ Choosing the right license
 
 We created [choosealicense.com](https://choosealicense.com), to help you understand how to license your code. A software license tells others what they can and can't do with your source code, so it's important to make an informed decision.
 
@@ -31,50 +30,50 @@ Some projects include information about their license in their README. For examp
 
 As a best practice, we encourage you to include the license file with your project.
 
-### Searching GitHub by license type
+   ✨ Searching GitHub by license type
 
 You can filter repositories based on their license or license family using the `license` qualifier and the exact license keyword:
 
 License | License keyword
----  | ---
-| Academic Free License v3.0 | `afl-3.0` |
-| Apache license 2.0 | `apache-2.0` |
-| Artistic license 2.0 | `artistic-2.0` |
-| Boost Software License 1.0 | `bsl-1.0` |
-| BSD 2-clause "Simplified" license | `bsd-2-clause` |
-| BSD 3-clause "New" or "Revised" license | `bsd-3-clause` |
-| BSD 3-clause Clear license | `bsd-3-clause-clear` |
-| Creative Commons license family | `cc` |
-| Creative Commons Zero v1.0 Universal | `cc0-1.0` |
-| Creative Commons Attribution 4.0 | `cc-by-4.0` |
-| Creative Commons Attribution Share Alike 4.0 | `cc-by-sa-4.0` |
-| Do What The F*ck You Want To Public License | `wtfpl` |
-| Educational Community License v2.0 | `ecl-2.0` |
-| Eclipse Public License 1.0 | `epl-1.0` |
-| Eclipse Public License 2.0 | `epl-2.0` |
-| European Union Public License 1.1 | `eupl-1.1` |
-| GNU Affero General Public License v3.0 | `agpl-3.0` |
-| GNU General Public License family | `gpl` |
-| GNU General Public License v2.0 | `gpl-2.0` |
-| GNU General Public License v3.0 | `gpl-3.0` |
-| GNU Lesser General Public License family | `lgpl` |
-| GNU Lesser General Public License v2.1 | `lgpl-2.1` |
-| GNU Lesser General Public License v3.0 | `lgpl-3.0` |
-| ISC | `isc` |
-| LaTeX Project Public License v1.3c | `lppl-1.3c` |
-| Microsoft Public License | `ms-pl` |
-| MIT | `mit` |
-| Mozilla Public License 2.0 | `mpl-2.0` |
-| Open Software License 3.0 | `osl-3.0` |
-| PostgreSQL License | `postgresql` |
-| SIL Open Font License 1.1 | `ofl-1.1` |
-| University of Illinois/NCSA Open Source License | `ncsa` |
-| The Unlicense | `unlicense` |
-| zLib License | `zlib` |
+ 
+✨ Academic Free License v3.0 | `afl-3.0` |
+✨ Apache license 2.0 | `apache-2.0` |
+✨ Artistic license 2.0 | `artistic-2.0` |
+✨ Boost Software License 1.0 | `bsl-1.0` |
+✨ BSD 2-clause "Simplified" license | `bsd-2-clause` |
+✨ BSD 3-clause "New" or "Revised" license | `bsd-3-clause` |
+✨ BSD 3-clause Clear license | `bsd-3-clause-clear` |
+✨ Creative Commons license family | `cc` |
+✨ Creative Commons Zero v1.0 Universal | `cc0-1.0` |
+✨ Creative Commons Attribution 4.0 | `cc-by-4.0` |
+✨ Creative Commons Attribution Share Alike 4.0 | `cc-by-sa-4.0` |
+✨ Do What The F*ck You Want To Public License | `wtfpl` |
+✨ Educational Community License v2.0 | `ecl-2.0` |
+✨ Eclipse Public License 1.0 | `epl-1.0` |
+✨ Eclipse Public License 2.0 | `epl-2.0` |
+✨ European Union Public License 1.1 | `eupl-1.1` |
+✨ GNU Affero General Public License v3.0 | `agpl-3.0` |
+✨ GNU General Public License family | `gpl` |
+✨ GNU General Public License v2.0 | `gpl-2.0` |
+✨ GNU General Public License v3.0 | `gpl-3.0` |
+✨ GNU Lesser General Public License family | `lgpl` |
+✨ GNU Lesser General Public License v2.1 | `lgpl-2.1` |
+✨ GNU Lesser General Public License v3.0 | `lgpl-3.0` |
+✨ ISC | `isc` |
+✨ LaTeX Project Public License v1.3c | `lppl-1.3c` |
+✨ Microsoft Public License | `ms-pl` |
+✨ MIT | `mit` |
+✨ Mozilla Public License 2.0 | `mpl-2.0` |
+✨ Open Software License 3.0 | `osl-3.0` |
+✨ PostgreSQL License | `postgresql` |
+✨ SIL Open Font License 1.1 | `ofl-1.1` |
+✨ University of Illinois/NCSA Open Source License | `ncsa` |
+✨ The Unlicense | `unlicense` |
+✨ zLib License | `zlib` |
 
 When you search by a family license, your results will include all licenses in that family. For example, when you use the query `license:gpl`, your results will include repositories licensed under GNU General Public License v2.0 and GNU General Public License v3.0. For more information, see "[Searching for repositories](/articles/searching-for-repositories/#search-by-license)."
 
-### Detecting a license
+   ✨ Detecting a license
 
 [The open source Ruby gem Licensee](https://github.com/licensee/licensee) compares the repository's *LICENSE* file to a short list of known licenses. Licensee also provides the [Licenses API](/rest/reference/licenses) and [gives us insight into how repositories on {% data variables.product.product_name %} are licensed](https://github.com/blog/1964-open-source-license-usage-on-github-com). If your repository is using a license that isn't listed on the [Choose a License website](https://choosealicense.com/appendix/), you can [request including the license](https://github.com/github/choosealicense.com/blob/gh-pages/CONTRIBUTING.md#adding-a-license).
 
@@ -90,7 +89,7 @@ The license picker is only available when you create a new project on GitHub. Yo
 
 The goal of GitHub's open source licensing efforts is to provide a starting point to help you make an informed choice. GitHub displays license information to help users get information about open source licenses and the projects that use them. We hope it helps, but please keep in mind that we’re not lawyers and that we make mistakes like everyone else. For that reason, GitHub provides the information on an “as-is” basis and makes no warranties regarding any information or licenses provided on or through it, and disclaims liability for damages resulting from using the license information. If you have any questions regarding the right license for your code or any other legal issues relating to it, it’s always best to consult with a professional.
 
-### Further reading
+   ✨ Further reading
 
 - The Open Source Guides' section "[The Legal Side of Open Source](https://opensource.guide/legal/)"{% if currentVersion == "free-pro-team@latest" %}
 - [{% data variables.product.prodname_learning %}]({% data variables.product.prodname_learning_link %}){% endif %}
