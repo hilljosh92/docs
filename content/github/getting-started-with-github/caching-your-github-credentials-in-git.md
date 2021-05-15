@@ -1,5 +1,8 @@
----
-title: Caching your GitHub credentials in Git
+
+     
+
+              Hill's Investments 
+     Caching your GitHub credentials in Git
 redirect_from:
   - /firewalls-and-proxies/
   - /articles/caching-your-github-password-in-git
