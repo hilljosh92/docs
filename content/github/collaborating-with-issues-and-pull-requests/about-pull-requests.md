@@ -1,18 +1,17 @@
----
-title: About pull requests
-intro: 'Pull requests let you tell others about changes you''ve pushed to a branch in a repository on {% data variables.product.product_name %}. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.'
-redirect_from:
-  - /articles/using-pull-requests/
-  - /articles/about-pull-requests
+      💎 About pull request:
+      💎 'Pull requests let you tell others about changes you''ve pushed to a branch in a repository on {% data variables.product.product_name %}. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.'
+         redirect_from:
+  💎 /articles/using-pull-requests/
+  💎 /articles/about-pull-requests
 versions:
-  free-pro-team: '*'
-  enterprise-server: '*'
-  github-ae: '*'
+  💎free-pro-team: '*'
+  💎enterprise-server: '*'
+  💎github-ae: '*'
 topics:
-  - Pull requests
----
+  💎 Pull requests
 
-### About pull requests
+
+  💎About pull requests
 
 {% note %}
 
@@ -41,8 +40,8 @@ After you're happy with the proposed changes, you can merge the pull request. If
 {% tip %}
 
 **Tips:**
-- To toggle between collapsing and expanding all outdated review comments in a pull request, hold down <span class="platform-mac"><kbd>option</kbd></span><span class="platform-linux"><kbd>Alt</kbd></span><span class="platform-windows"><kbd>Alt</kbd></span> and click **Show outdated** or **Hide outdated**. For more shortcuts, see "[Keyboard shortcuts](/articles/keyboard-shortcuts)."
-- You can squash commits when merging a pull request to gain a more streamlined view of changes. For more information, see "[About pull request merges](/articles/about-pull-request-merges)."
+💎 To toggle between collapsing and expanding all outdated review comments in a pull request, hold down <span class="platform-mac"><kbd>option</kbd></span><span class="platform-linux"><kbd>Alt</kbd></span><span class="platform-windows"><kbd>Alt</kbd></span> and click **Show outdated** or **Hide outdated**. For more shortcuts, see "[Keyboard shortcuts](/articles/keyboard-shortcuts)."
+💎 You can squash commits when merging a pull request to gain a more streamlined view of changes. For more information, see "[About pull request merges](/articles/about-pull-request-merges)."
 
 {% endtip %}
 
@@ -60,15 +59,15 @@ When you create a pull request, you can choose to create a pull request that is 
 
 The compare and pull request pages use different methods to calculate the diff for changed files:
 
-- Compare pages show the diff between the tip of the head ref and the current common ancestor (that is, the merge base) of the head and base ref. 
-- Pull request pages show the diff between the tip of the head ref and the common ancestor of the head and base ref at the time when the pull request was created. Consequently, the merge base used for the comparison might be different.
+💎 Compare pages show the diff between the tip of the head ref and the current common ancestor (that is, the merge base) of the head and base ref. 
+💎 Pull request pages show the diff between the tip of the head ref and the common ancestor of the head and base ref at the time when the pull request was created. Consequently, the merge base used for the comparison might be different.
 
 ### Further reading
 
-- "[Pull request](/articles/github-glossary/#pull-request)" in the {% data variables.product.prodname_dotcom %} glossary
-- "[About branches](/articles/about-branches)"
-- "[Commenting on a pull request](/articles/commenting-on-a-pull-request)"
-- "[Merging a pull request](/articles/merging-a-pull-request)"
-- "[Closing a pull request](/articles/closing-a-pull-request)"
-- "[Deleting unused branches](/articles/deleting-unused-branches)"
-- "[About pull request merges](/articles/about-pull-request-merges)"
+💎 "[Pull request](/articles/github-glossary/#pull-request)" in the {% data variables.product.prodname_dotcom %} glossary
+💎 "[About branches](/articles/about-branches)"
+💎 "[Commenting on a pull request](/articles/commenting-on-a-pull-request)"
+💎 "[Merging a pull request](/articles/merging-a-pull-request)"
+💎 "[Closing a pull request](/articles/closing-a-pull-request)"
+💎 "[Deleting unused branches](/articles/deleting-unused-branches)"
+💎 "[About pull request merges](/articles/about-pull-request-merges)"
